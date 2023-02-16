@@ -16,3 +16,22 @@ body{
 font-size: 65px;
 font-weight: 700;
 }
+
+
+.show-card:hover{ box-shadow: 0 1rem 3rem rgba(var(--bs-body-color-rgb),.175)!important;
+
+}
+
+
+.card:hover .Design-img{
+    transform: scale(1.2);
+}
+
+.Design-img{
+transition: all .7s;
+}
+
+.card{
+    overflow: hidden;
+    transition: all .2s;
+}
