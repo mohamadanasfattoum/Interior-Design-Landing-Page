@@ -17,6 +17,7 @@ font-size: 65px;
 font-weight: 700;
 }
 
+.myicon{color:#0D6EFD}
 
 .show-card:hover{ box-shadow: 0 1rem 3rem rgba(var(--bs-body-color-rgb),.175)!important;
 
@@ -29,9 +30,16 @@ font-weight: 700;
 
 .Design-img{
 transition: all .7s;
+width: 304px;
+    height: 204px;
 }
 
 .card{
     overflow: hidden;
     transition: all .2s;
+}
+
+.kitchen{
+    font-size: 25px;
+    font-weight: 800;
 }
